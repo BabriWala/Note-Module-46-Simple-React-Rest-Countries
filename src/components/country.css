@@ -1,0 +1,16 @@
+.container{
+    padding: 50px;
+    background-color: antiquewhite;
+    border: 5px solid yellow;
+}
+
+.main-container{
+    margin: 50px;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.flags{
+    width: 100px;
+}
